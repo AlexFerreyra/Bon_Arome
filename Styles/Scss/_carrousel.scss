@@ -1,0 +1,17 @@
+.carrousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .cimg{
+    width: 1300px;
+    height: 450px;
+    border-radius: 10px;
+}
+    .cletras{
+        background-color: $transparente;
+        margin-right: 250px;
+        margin-left: 250px;border-radius: 10px;
+    }
+}

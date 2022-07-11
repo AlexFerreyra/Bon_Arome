@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navegador {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.navegador .letras {
+  color: white;
+  font-family: pag;
+}
+.navegador .logo {
+  margin-right: 10px;
+  border-radius: 60px;
+}
+
+.imagenFondo {
+  background-image: url(../Media/Imagenes/Fondo.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container__tarjeta {
+  padding-block: 50px;
+  font-family: pag;
+}
+.container__tarjeta .tarjeta {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__tarjeta .tarjeta .card-img-top {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  font-family: pag;
+}
+
+.carrousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrousel .cimg {
+  width: 1300px;
+  height: 450px;
+  border-radius: 10px;
+}
+.carrousel .cletras {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 250px;
+  margin-left: 250px;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: title;
+  src: url(../Media/1.ttf);
+}
+@font-face {
+  font-family: pag;
+  src: url(../Media/2.ttf);
+}/*# sourceMappingURL=Styles.css.map */
