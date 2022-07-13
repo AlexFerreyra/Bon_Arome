@@ -18,3 +18,18 @@
     }
     
 }
+@media screen and (max-width: 425px){
+    .container__tarjeta{
+        width: auto;
+        .tarjeta{
+            width: 300px;
+        }
+        .card-img-top{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    }
+    
+}

@@ -34,6 +34,31 @@
     right: 50px;
 }
 
+aside {
+    margin-top: 40px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: right;
+    
+ }
+ .img-p{
+    
+    height: 350px;
+    border-radius: 10px;
+    
+ }
+ .img-p2{
+    width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .img-p3{
+    display: none;
+    width: 200px;
+ }
+
 
 
 // Mobile First
@@ -51,4 +76,17 @@
         font-family: title;
         margin-right: 8rem;
     }
+    .img-p2{
+        display: none;
+     }
+     .img-p{
+      display: none;
+     }
+     .img-p3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin: 10px;
+     }
 }
