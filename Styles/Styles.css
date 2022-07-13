@@ -18,7 +18,7 @@
 }
 
 .imagenFondo {
-  background-image: url(../Media/Imagenes/Fondo.jpg);
+  background-image: url(../../Media/Imagenes/Fondo.jpg);
   background-position: center center;
   background-size: cover;
   height: 100vh;
@@ -67,6 +67,24 @@
   margin-right: 250px;
   margin-left: 250px;
   border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: pag;
+  height: 500px;
+}
+.form .cuadro {
+  width: 40%;
+  color: white;
+}
+.form .cuadro .cuadro-fondo {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
 }
 
 @font-face {

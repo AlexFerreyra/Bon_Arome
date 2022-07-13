@@ -1,0 +1,18 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: pag;
+    height: 500px;
+    .cuadro{
+        width: 40%;
+        color: white;
+        
+        .cuadro-fondo{
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+        }
+    }
+}
