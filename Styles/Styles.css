@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.imagenFondo {
-  background-image: url(../../Media/Imagenes/Fondo.jpg);
-}
-
 .navegador {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
