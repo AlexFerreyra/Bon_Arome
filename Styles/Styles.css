@@ -91,13 +91,6 @@ aside {
     margin: 10px;
   }
 }
-.imagenFondo {
-  background-image: url(../../Media/Imagenes/Fondo.jpg);
-  background-position: center center;
-  background-size: cover;
-  height: 100vh;
-}
-
 .container__tarjeta {
   padding-block: 50px;
   font-family: pag;
@@ -190,4 +183,10 @@ aside {
 @font-face {
   font-family: pag;
   src: url(../Media/2.ttf);
+}
+.imagenFondo {
+  background-image: url(../Media/Imagenes/Fondo.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
 }/*# sourceMappingURL=Styles.css.map */
