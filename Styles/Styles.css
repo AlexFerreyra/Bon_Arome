@@ -6,7 +6,7 @@
 
 .navegador {
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .navegador .letras {
   color: white;
@@ -15,6 +15,20 @@
 .navegador .logo {
   margin-right: 10px;
   border-radius: 60px;
+}
+.navegador .ubicacion {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  color: black;
+  font-family: pag;
+}
+.navegador .nav-fondo {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navegador .tittle {
+  color: white;
+  font-family: title;
+  margin-right: 41rem;
 }
 
 .imagenFondo {
