@@ -47,7 +47,7 @@ aside {
 }
 
 .img-p {
-  height: 350px;
+  height: 400px;
   border-radius: 10px;
 }
 
@@ -116,9 +116,9 @@ aside {
   .container__tarjeta .tarjeta {
     width: 300px;
   }
-  .container__tarjeta .card-img-top {
-    width: 200px;
-    height: 200px;
+  .container__tarjeta .img_card {
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
     margin-top: 20px;
   }
