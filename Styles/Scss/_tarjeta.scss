@@ -1,7 +1,6 @@
 .container__tarjeta{
     padding-block: 50px;
     font-family: pag;
- 
     .tarjeta{
         background-color: $transparente;
         color: white;
@@ -16,7 +15,6 @@
             margin-top: 20px;
         }
     }
-    
 }
 @media screen and (max-width: 425px){
     .container__tarjeta{
@@ -31,5 +29,4 @@
             margin-top: 20px;
         }
     }
-    
 }

@@ -2,8 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
     .cimg{
     width: 1150px;
     height: 450px;
@@ -15,7 +13,6 @@
         margin-left: 250px;border-radius: 10px;
     }
 }
-
 @media screen and (max-width: 425px){
     .carrousel{
         width: auto;
@@ -23,5 +20,4 @@
             width: 300px;
         }
     }
-    
 }
