@@ -1,63 +1,82 @@
-aside {
+.publicidad{
     display: flex;
-    justify-content: center;
- .img-p{
-    height: 50%;
-    border-radius: 10px;
-    margin-left: 45%;
-    margin-top: 30%;
- }
- .publicidad2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .img-p2{
-        width: 80%;
-        border-radius: 10px;
-        margin-left: 8%;
-        margin-top: 5%;
-     }
-}
-
- .img-p3{
-    display: none;
-    width: 200px;
- }
-}
-@media screen and (max-width: 1024px){
-    aside{
-    .img-p{
-        margin-left: 15%;
-    }
-}
-}
-@media screen and (max-width: 992px){
-    aside{
-
-    .img-p{
-        margin-left: 25%;
-    }
-}
-}
-@media screen and (max-width: 768px){
-    .img-p{
-        display: none;
-    }
-}
-@media screen and (max-width: 425px){
-    aside{
-    .img-p2{
-        display: none;
-     }
-     .img-p{
-      display: none;
-     }
-     .img-p3{
-        display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 10px;
-        margin: 10px;
-     }
+    .publicidad1{
+        width: 500px;
+        margin-top: 15%;
+        
+        .img-p{
+            width: 170%;
+            border-radius: 10px;
+        }
+    }
+    .publicidad2{
+        margin-top: 5%;
+        width: 80%;
+        .img-p2{
+            width: 80%;
+            margin-left: 8%;
+            border-radius: 10px;
+        }
+    }
+    .publicidad3{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .publicidad{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        .publicidad1{
+            display: none;
+        }
+        .publicidad2{
+            margin-top: 5%;
+            width: 80%;
+            .img-p2{
+                width: 100%;
+                margin-left: 0%;
+                border-radius: 10px;
+            }
+        }
+        .publicidad3{
+            display: flex;
+            .img-p3{
+                width: 50%;
+                border-radius: 10px;
+                margin-left: 25%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .publicidad{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        .publicidad1{
+            display: none;
+        }
+        .publicidad2{
+            margin-top: 15%;
+            width: 80%;
+            .img-p2{
+                width: 120%;
+                margin-left: -10%;
+                border-radius: 10px;
+            }
+        }
+        .publicidad3{
+            display: flex;
+            .img-p3{
+                width: 50%;
+                border-radius: 10px;
+                margin-left: 25%;
+                margin-bottom: 5%;
+            }
+        }
     }
 }
