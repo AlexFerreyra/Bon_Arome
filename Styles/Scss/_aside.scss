@@ -22,6 +22,14 @@ aside {
     width: 200px;
  }
 }
+@media screen and (max-width: 992px){
+    aside{
+
+    .img-p{
+        margin-left: 25%;
+    }
+}
+}
 @media screen and (max-width: 768px){
     .img-p{
         display: none;

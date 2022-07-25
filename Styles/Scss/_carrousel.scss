@@ -16,6 +16,23 @@
         margin-left: 250px;border-radius: 10px;
     }
 }
+@media screen and (max-width: 1400px){
+    .carrousel{
+        .cimg{
+            width: 90%;
+            margin-left: 10%;
+            padding: 2%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cletras{
+            background-color: $transparente;
+            margin-right: 250px;
+            margin-left: 250px;border-radius: 10px;
+        }
+    }
+}
 @media screen and (max-width: 768px){
     .carrousel{
         .cimg{

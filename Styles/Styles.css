@@ -70,7 +70,7 @@
   margin-top: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .container__tarjeta {
     display: flex;
     flex-flow: column;
@@ -78,7 +78,7 @@
     align-items: center;
   }
   .container__tarjeta .tarjeta {
-    width: 150%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 425px) {
@@ -87,6 +87,19 @@
   }
   .container__tarjeta .tarjeta {
     width: 350px;
+  }
+  .container__tarjeta .card-img-top {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container__tarjeta {
+    width: auto;
+  }
+  .container__tarjeta .tarjeta {
+    width: 325px;
   }
   .container__tarjeta .card-img-top {
     width: 80%;
@@ -138,6 +151,22 @@
   border-radius: 10px;
 }
 
+@media screen and (max-width: 1400px) {
+  .carrousel .cimg {
+    width: 90%;
+    margin-left: 10%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carrousel .cletras {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 10px;
+  }
+}
 @media screen and (max-width: 768px) {
   .carrousel .cimg {
     width: 90%;
@@ -194,6 +223,11 @@ aside .img-p3 {
   width: 200px;
 }
 
+@media screen and (max-width: 992px) {
+  aside .img-p {
+    margin-left: 25%;
+  }
+}
 @media screen and (max-width: 768px) {
   .img-p {
     display: none;

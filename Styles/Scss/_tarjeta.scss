@@ -14,14 +14,14 @@
         }
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .container__tarjeta{
         display:flex;
         flex-flow: column;
         justify-content: center;
     align-items: center;
         .tarjeta{
-        width: 150%;
+        width: 100%;
     }
     }
 }
@@ -30,6 +30,19 @@
         width: auto;
         .tarjeta{
             width: 350px;
+        }
+        .card-img-top{
+            width: 80%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    .container__tarjeta{
+        width: auto;
+        .tarjeta{
+            width: 325px;
         }
         .card-img-top{
             width: 80%;
