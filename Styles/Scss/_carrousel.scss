@@ -5,15 +5,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2%;
     .cimg{
-    width: 1150px;
-    height: 450px;
+    margin-left: 5%; 
+    width: 1000px;
+    height: 500px;
     border-radius: 10px;
 }
     .cletras{
         background-color: $transparente;
-        margin-right: 250px;
-        margin-left: 250px;
+        justify-content: center;
+    align-items: center;
         border-radius: 10px;
     }
 }
@@ -21,7 +23,7 @@
     .carrousel{
         .cimg{
             width: 90%;
-            margin-left: 10%;
+            margin-left: 5%;
             padding: 2%;
             display: flex;
             justify-content: center;
@@ -29,16 +31,22 @@
             border-radius: 10px;
         }
         .cletras{
-            background-color: $gris-800;
+            background-color: $transparente;
             border-radius: 10px;
+            margin-right: 1%;
+            margin-left: 5%;
         }
     }
 }
 @media screen and (max-width: 768px){
     .carrousel{
+        display: none;
         .cimg{
             width: 90%;
             margin-left: 10%;
+            width: 80%;
+            height: 400px;
+            border-radius: 10px;
         }
     }
 }
