@@ -13,10 +13,11 @@
     .cletras{
         background-color: $transparente;
         margin-right: 250px;
-        margin-left: 250px;border-radius: 10px;
+        margin-left: 250px;
+        border-radius: 10px;
     }
 }
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1024px){
     .carrousel{
         .cimg{
             width: 90%;
@@ -25,11 +26,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            border-radius: 10px;
         }
         .cletras{
-            background-color: $transparente;
-            margin-right: 250px;
-            margin-left: 250px;border-radius: 10px;
+            background-color: $gris-800;
+            border-radius: 10px;
         }
     }
 }

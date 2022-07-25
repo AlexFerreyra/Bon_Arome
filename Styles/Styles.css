@@ -151,7 +151,7 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1024px) {
   .carrousel .cimg {
     width: 90%;
     margin-left: 10%;
@@ -159,11 +159,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
   }
   .carrousel .cletras {
     background-color: rgba(0, 0, 0, 0.5);
-    margin-right: 250px;
-    margin-left: 250px;
     border-radius: 10px;
   }
 }
