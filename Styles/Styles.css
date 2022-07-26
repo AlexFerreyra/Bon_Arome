@@ -70,6 +70,18 @@
   margin-top: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .container__tarjeta {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container__tarjeta .tarjeta {
+    width: 180%;
+    margin-left: -15%;
+  }
+}
 @media screen and (max-width: 767px) {
   .container__tarjeta {
     display: flex;
@@ -78,7 +90,8 @@
     align-items: center;
   }
   .container__tarjeta .tarjeta {
-    width: 100%;
+    width: 80%;
+    margin-left: 15%;
   }
 }
 @media screen and (max-width: 425px) {
@@ -87,6 +100,7 @@
   }
   .container__tarjeta .tarjeta {
     width: 350px;
+    margin-left: 5%;
   }
   .container__tarjeta .card-img-top {
     width: 80%;
