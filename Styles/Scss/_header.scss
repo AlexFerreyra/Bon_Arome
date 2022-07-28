@@ -1,19 +1,19 @@
 .navegador{
-    background-color: $transparente;
+    
     border-radius: 5px;
     .letras{
         color: white;
         font-family: pag;
+        border-radius: 10px;
     }
     .logo{
         margin-right: 10px;
         border-radius: 60px;
     }
     .ubicacion{
+        @extend .letras;
         background-color: rgba(255, 255, 255, 0.5);
-        border-radius: 10px;
         color: black;
-        font-family: pag;
     }
     .nav-fondo{
         background-color: $transparente;

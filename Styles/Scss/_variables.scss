@@ -1,2 +1,13 @@
-$blanco: white;
-$transparente: rgba(0, 0, 0, 0.5);
+$blanco: #ffffff;
+$transparente: #00000080;
+// Maps
+$colores: (
+    transparente:#00000080
+);
+// fin maps
+// each
+@each $pagina, $base in $colores {
+    .color-#{$pagina}{
+        background-color: $base;
+    }
+}
