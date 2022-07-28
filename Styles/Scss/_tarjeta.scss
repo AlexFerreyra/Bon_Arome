@@ -1,3 +1,7 @@
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
 .container__tarjeta{
     padding-block: 50px;
     font-family: pag;
@@ -8,7 +12,7 @@
         justify-content: center;
         align-items: center;
         .card-img-top{
-            width: 80%;
+            @include sizes(80%,80%);
             border-radius: 10px;
             margin-top: 20px;
         }

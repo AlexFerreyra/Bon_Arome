@@ -67,6 +67,7 @@
   align-items: center;
 }
 .container__tarjeta .tarjeta .card-img-top {
+  height: 80%;
   width: 80%;
   border-radius: 10px;
   margin-top: 20px;
