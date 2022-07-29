@@ -57,19 +57,22 @@
       <!-- Inicio de form -->
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 ">
-            <form class="form" action="https://formsubmit.co/alexferreyra2353@gmail.com" method="post">
-            <div class="mb-3 cuadro">
-              <label for="exampleFormControlInput1" class="form-label">
-                <h3> Su Gmail</h3></label>
-              <input type="email" class="form-control cuadro-fondo" id="exampleFormControlInput1" placeholder="ejemplo@gmail.com" required>
-            </div>
-            <div class="mb-3 cuadro">
-              <label for="exampleFormControlTextarea1" class="form-label">
-                <h3> Dejenos su consulta</h3></label>
-              <textarea class="form-control cuadro-fondo" id="exampleFormControlTextarea1" rows="3" required></textarea>
-              <button class="btn btn-outline-light" type="submit">Enviar consulta</button>
-            </div>
+          <div class="col-12">
+              <form class="form" action="https://formspree.io/f/xbjbrjdj" method="POST">
+                <div class="mb-3 cuadro">
+                  <label for="exampleFormControlInput1" class="form-label">
+                    <h3> Su Gmail</h3></label>
+                  <input type="email" name="email" class="form-control cuadro-fondo" id="exampleFormControlInput1" placeholder="ejemplo@gmail.com" required>
+                  <label for="exampleFormControlInput1" class="form-label">
+                    <h3> Su nombre</h3></label>
+                  <input type="Name" name="name" class="form-control cuadro-fondo" id="exampleFormControlInput1" placeholder="Pedro" required>
+                </div>
+                <div class="mb-3 cuadro">
+                  <label for="exampleFormControlTextarea1" class="form-label">
+                    <h3> Dejenos su consulta</h3></label>
+                  <textarea name="message" class="form-control cuadro-fondo" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                  <button class="btn btn-outline-light" type="submit">Enviar consulta</button>
+                </div>
           </form>
           </div>
         </div>
